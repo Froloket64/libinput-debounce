@@ -11,6 +11,16 @@ provide the common set of functionality that users expect. Input event
 processing includes scaling touch coordinates, generating
 relative pointer events from touchpads, pointer acceleration, etc.
 
+Debounce time
+-------------
+
+This fork is made to allow customization of debounce time. Currently, it's
+only possible by changing the line
+``` c
+static const int DEBOUNCE_TIME = 0;
+```
+to a different value.
+
 User documentation
 ------------------
 
