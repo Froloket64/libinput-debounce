@@ -62,7 +62,7 @@
    indistinguishable from 5 and 6.
 */
 
-static const int DEBOUNCE_TIME = 0;
+static const int DEBOUNCE_TIME = 0; // in ms
 
 enum debounce_event {
 	DEBOUNCE_EVENT_PRESS = 50,

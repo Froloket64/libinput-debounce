@@ -19,7 +19,7 @@ only possible by changing the line
 ``` c
 static const int DEBOUNCE_TIME = 0;
 ```
-to a different value.
+to a different value. (`/src/evdev-debounce.c`)
 
 User documentation
 ------------------
